@@ -23,10 +23,10 @@ ActiveRecord::Schema.define(version: 20201202162408) do
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.string "body"
-    t.integer "author_id_id", null: false
+    t.integer "author_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["author_id_id"], name: "index_posts_on_author_id_id"
+    t.index ["author_id"], name: "index_posts_on_author_id"
   end
 
 end
