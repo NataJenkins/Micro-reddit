@@ -1,3 +1,4 @@
+# rubocop:disable Layout/EndOfLine
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
@@ -5,3 +6,4 @@ class CommentTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+# rubocop:enable Layout/EndOfLine
